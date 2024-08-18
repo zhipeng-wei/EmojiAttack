@@ -59,8 +59,4 @@ Generate cross-attention values from these two examples, which saved into the cu
 ```python
 python bias_attention.py
 ```
-Reproduce Figure 2.
-```
-python
-```
 
