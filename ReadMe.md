@@ -42,26 +42,6 @@ We utilize prompts from the [EasyJailbreak](https://github.com/EasyJailbreak/Eas
 
 # Judge LLMs
 We implement 10 Judge LLMs in [judge](./judge/): Llama Guard, Llama Guard 2, ShieldLLM, WildGuard, GPT-3.5, Gemini, Claude, DeepSeek, o3-mini, GPT-4.
-To use these commercial LLMs, you should export their api_key:
-```
-export OPENAI_API_KEY=
-export GEMINI_API_KEY=
-export ANTHROPIC_API_KEY=
-export DEEPSEEK_API_KEY=
-```
-To use these open-source LLMs, download the model weights to a specified path, which is then indicated by:
-```
-export CACHE_DIR=
-```
-WildGuard requires HUGGINGFACE_TOKEN to access:
-```
-export HUGGINGFACE_TOKEN=
-```
-Llama Guard models are converted to Hugging Face format by:
-```
-python convert_llama_weights_to_hf.py --input_dir [llama_guard_path] --output_dir [llama_guard_hf_path] --model_size 7B
-export LLAMA_GUARD_PATH=[llama_guard_hf_path]
-```
 
 # Experiments
 ## Setting Environment Variable 
