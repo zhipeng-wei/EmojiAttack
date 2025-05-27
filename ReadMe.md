@@ -11,7 +11,7 @@ Emoji Attack uses in-context learning to insert emojis into outputs, disrupting 
 
 ![Overview](overview.png)
 
-If you use our method for attacks in your research, please consider citing
+If you use our method in your research, please consider citing
 ```
 @article{wei2024emoji,
   title={Emoji Attack: A Method for Misleading Judge LLMs in Safety Risk Detection},
