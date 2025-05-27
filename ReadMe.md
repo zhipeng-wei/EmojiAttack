@@ -36,6 +36,7 @@ We implement this dataset using `class HarmfulResponseDataset` in [our_datasets.
     - Select responses manually labeled as harmfulness as the used dataset.
 * [Red Teaming Data](./red_team_attempts.jsonl) in [Anthropics](https://github.com/anthropics/hh-rlhf).
     - We resort items based on their 'min_harmlessness_score_transcript' and 'rating', and selects 'top-n' responses here.
+    - Download it from [link](https://github.com/anthropics/hh-rlhf/tree/master/red-team-attempts).
 ## Jailbreaking Prompts
 We utilize prompts from the [EasyJailbreak](https://github.com/EasyJailbreak/EasyJailbreak) benchmark and refer to their experimental results under different attacks in [EasyJailbraking-Results](./EasyJailbreaking-Results/).
 
