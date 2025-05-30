@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><a href="https://arxiv.org/html/2411.01077v1">Emoji Attack: A Method for Misleading Judge LLMs in Safety Risk Detection</a></h1>
+<h1><a href="https://arxiv.org/html/2411.01077v1">Emoji Attack: Enhancing Jailbreak Attacks Against Judge LLM Detection</a></h1>
 
 **ICML 2025**
 
