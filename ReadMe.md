@@ -28,6 +28,9 @@ url={https://openreview.net/forum?id=Q0rKYiVEZq}
 conda create --name EmojiAttack --file requirements.txt
 ```
 
+# Update
+* We released a [Colab](https://colab.research.google.com/drive/1eftcbHuPF3_bxKlOgpXiDyB0gqV8ne7o?usp=sharing) demo demonstrating white-box emoji attacks on judge LLMs.
+
 # Dataset
 ## 402 Offensive Phrases
 We utilize [en](./datasets/en.txt) from [List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) repository, excluding the final emoji entry.
