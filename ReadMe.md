@@ -37,7 +37,7 @@ We utilize [en](./datasets/en.txt) from [List-of-Dirty-Naughty-Obscene-and-Other
 ## 1,432 Harmful Responses
 We implement this dataset using `class HarmfulResponseDataset` in [our_datasets.py](./our_datasets.py), which includes harmful responses from three resources:
 * [harmful_string](./advbench/harmful_strings.csv) in [AdvBench](https://github.com/llm-attacks/llm-attacks/tree/main/data).
-* [labeled_responses](./all_repsonses_gpt.csv) in [Self-Defense](https://github.com/poloclub/llm-self-defense).
+* [labeled_responses](./datasets/all_repsonses_gpt.csv) in [Self-Defense](https://github.com/poloclub/llm-self-defense).
     - Select responses manually labeled as harmfulness as the used dataset.
 * [Red Teaming Data](./red_team_attempts.jsonl) in [Anthropics](https://github.com/anthropics/hh-rlhf).
     - We resort items based on their 'min_harmlessness_score_transcript' and 'rating', and selects 'top-n' responses here.
